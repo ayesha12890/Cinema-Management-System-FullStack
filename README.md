@@ -17,7 +17,7 @@
 * **Course:** CS-311: Database Systems (Term Project)
 * **Submitted To:** Miss Duaa-e-Nadeem
 * **Group Leader:** Ayesha Farooq (SAP ID: `70150025`)
-* **Group Members:** Talha Sarfraz (`70150006`), Arslan Tariq (`70150012`), Hassan Ali (`70150018`)
+* **Group Members:** Arslan Tariq (`70150012`), Hassan Ali (`70150018`), Zainab Malik (`70150030`)
 * **Project Repository:** [https://github.com/ayesha12890/Cinema-Management-System-FullStack](https://github.com/ayesha12890/Cinema-Management-System-FullStack)
 
 ---
@@ -259,7 +259,7 @@ Cinema-Management-System-FullStack/
 * **Ayesha Farooq (Leader)** — *Database Architecture, EER Modeling, Master SQL Implementation, Flask API*
 * **Arslan Tariq** — *Relational Mapping, BCNF Normalization Proofs, WHERE Clause Formulation*
 * **Hassan Ali** — *SQL Joins & Subqueries Formulation, React Interactive Workbench*
-* **Talha Sarfraz** — *Literature Review (APA 7th), Project Scenario & Visio ERD Specifications*
+* **Zainab Malik** — *Literature Review (APA 7th), Project Scenario & Visio ERD Specifications*
 
 **Department of Computer Science — The University of Lahore**  
 *Evaluated by: Miss Duaa-e-Nadeem*

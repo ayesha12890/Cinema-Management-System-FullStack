@@ -1,6 +1,6 @@
 # BSCS Database Systems — SQL Query Execution Evidence Report
 **Course:** CS-311: Database Systems | **Instructor:** Miss Duaa-e-Nadeem  
-**Student Name:** Talha Sarfraz (SAP ID: 70150006) & Group  
+**Student Name:** Ayesha Farooq (SAP ID: 70150025) & Group  
 **Project Title:** Enhanced Cinema Management System (Full-Stack)  
 **DBMS Engine:** Microsoft SQL Server (T-SQL) & SQLite 3 Verification Engine  
 **Execution Status:** 100% Tested & Verified | 0 Syntax Errors | 100% Accurate Outputs  
@@ -62,9 +62,9 @@ SELECT Customer_ID, First_Name, Last_Name, Email, Membership_Type, City FROM Cus
 
 | Customer_ID | First_Name | Last_Name | Email | Membership_Type | City |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | talha.sarfraz@gmail.com | VIP | Lahore |
+| 1 | Ayesha | Farooq | ayesha.farooq@gmail.com | VIP | Lahore |
 | 2 | Arslan | Tariq | arslan.tariq@yahoo.com | Platinum | Lahore |
-| 5 | Ayesha | Farooq | ayesha.f@gmail.com | VIP | Lahore |
+| 5 | Zain | Ahmed | zain.ahmed@gmail.com | Gold | Lahore |
 | 9 | Zainab | Malik | zainab.m@gmail.com | Silver | Lahore |
 | 12 | Omer | Javed | omer.javed@yahoo.com | Gold | Lahore |
 | 15 | Hina | Altaf | hina.altaf@gmail.com | Silver | Lahore |
@@ -185,7 +185,7 @@ SELECT Employee_ID, First_Name, Last_Name, Designation, Department, Monthly_Sala
 
 ### Query #8 — Operator: `AND`
 **Business Scenario:** Find active VIP tier members who have earned more than 400 loyalty points.  
-**Execution Status:** &#9989; Success | **Rows Returned:** 6  
+**Execution Status:** &#9989; Success | **Rows Returned:** 5  
 
 ```sql
 SELECT Customer_ID, First_Name, Last_Name, Membership_Type, Loyalty_Points, Is_Active FROM Customer WHERE Membership_Type = 'VIP' AND Loyalty_Points > 400;
@@ -195,8 +195,7 @@ SELECT Customer_ID, First_Name, Last_Name, Membership_Type, Loyalty_Points, Is_A
 
 | Customer_ID | First_Name | Last_Name | Membership_Type | Loyalty_Points | Is_Active |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | VIP | 450 | 1 |
-| 5 | Ayesha | Farooq | VIP | 510 | 1 |
+| 1 | Ayesha | Farooq | VIP | 450 | 1 |
 | 13 | Mariam | Raza | VIP | 600 | 1 |
 | 21 | Nimra | Khalid | VIP | 530 | 1 |
 | 28 | Shahid | Afridi | VIP | 580 | 1 |
@@ -399,9 +398,9 @@ SELECT Customer_ID, First_Name, Last_Name, Email, City FROM Customer WHERE Email
 
 | Customer_ID | First_Name | Last_Name | Email | City |
 | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | talha.sarfraz@gmail.com | Lahore |
+| 1 | Ayesha | Farooq | ayesha.farooq@gmail.com | Lahore |
 | 4 | Arslan | Mehmood | arslan.m@gmail.com | Islamabad |
-| 5 | Ayesha | Farooq | ayesha.f@gmail.com | Lahore |
+| 5 | Zain | Ahmed | zain.ahmed@gmail.com | Lahore |
 | 7 | Sara | Naveed | sara.naveed@gmail.com | Rawalpindi |
 | 9 | Zainab | Malik | zainab.m@gmail.com | Lahore |
 | 10 | Usman | Sheikh | usman.sh@gmail.com | Gujranwala |
@@ -627,11 +626,11 @@ SELECT c.Customer_ID, c.First_Name, c.Last_Name, c.Email, b.Booking_ID, b.Total_
 
 | Customer_ID | First_Name | Last_Name | Email | Booking_ID | Total_Seats_Booked | Net_Payable | Booking_Channel |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | talha.sarfraz@gmail.com | 1 | 1 | 1740.0 | Online |
+| 1 | Ayesha | Farooq | ayesha.farooq@gmail.com | 1 | 1 | 1740.0 | Online |
 | 2 | Arslan | Tariq | arslan.tariq@yahoo.com | 2 | 2 | 3480.0 | Box_Office |
 | 3 | Hassan | Ali | hassan.ali@outlook.com | 3 | 1 | 1566.0 | Online |
 | 4 | Arslan | Mehmood | arslan.m@gmail.com | 4 | 2 | 3480.0 | Box_Office |
-| 5 | Ayesha | Farooq | ayesha.f@gmail.com | 5 | 1 | 1740.0 | Online |
+| 5 | Zain | Ahmed | zain.ahmed@gmail.com | 5 | 1 | 1740.0 | Online |
 | 6 | Hamza | Siddique | hamza.sid@hotmail.com | 6 | 2 | 3306.0 | Box_Office |
 
 ### Join Query #2 — Type: `INNER JOIN`
@@ -665,11 +664,11 @@ SELECT c.Customer_ID, c.First_Name, c.Last_Name, c.Membership_Type, r.Review_ID,
 
 | Customer_ID | First_Name | Last_Name | Membership_Type | Review_ID | Rating_Stars | Review_Title |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | VIP | 1 | 3 | Spectacular animation and fun humor! |
+| 1 | Ayesha | Farooq | VIP | 1 | 3 | Spectacular animation and fun humor! |
 | 2 | Arslan | Tariq | Platinum | 2 | 4 | Mind-bending cinematic masterpiece |
 | 3 | Hassan | Ali | Gold | 3 | 5 | Nolan at his absolute finest |
 | 4 | Arslan | Mehmood | Regular | 4 | 4 | Haunting and deeply moving performance |
-| 5 | Ayesha | Farooq | VIP | 5 | 3 | Visual effects are out of this world |
+| 5 | Zain | Ahmed | Gold | 5 | 3 | Visual effects are out of this world |
 | 6 | Hamza | Siddique | Silver | 6 | 5 | Epic historical action thriller |
 
 ### Join Query #4 — Type: `LEFT JOIN`
@@ -703,11 +702,11 @@ SELECT c.Customer_ID, c.First_Name, c.Last_Name, b.Booking_ID, b.Booking_Timesta
 
 | Customer_ID | First_Name | Last_Name | Booking_ID | Booking_Timestamp | Net_Payable | Payment_Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | 1 | 2024-12-02 14:15:00 | 1740.0 | Paid |
+| 1 | Ayesha | Farooq | 1 | 2024-12-02 14:15:00 | 1740.0 | Paid |
 | 2 | Arslan | Tariq | 2 | 2024-12-03 14:15:00 | 3480.0 | Paid |
 | 3 | Hassan | Ali | 3 | 2024-12-04 14:15:00 | 1566.0 | Paid |
 | 4 | Arslan | Mehmood | 4 | 2024-12-05 14:15:00 | 3480.0 | Paid |
-| 5 | Ayesha | Farooq | 5 | 2024-12-06 14:15:00 | 1740.0 | Paid |
+| 5 | Zain | Ahmed | 5 | 2024-12-06 14:15:00 | 1740.0 | Paid |
 | 6 | Hamza | Siddique | 6 | 2024-12-07 14:15:00 | 3306.0 | Paid |
 
 ### Join Query #6 — Type: `RIGHT JOIN`
@@ -741,11 +740,11 @@ SELECT c.Customer_ID, c.First_Name, c.Last_Name, p.Parking_ID, p.Slot_Number, p.
 
 | Customer_ID | First_Name | Last_Name | Parking_ID | Slot_Number | Vehicle_Type | Total_Parking_Fee |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | 1 | P-02 | Car | 350.0 |
+| 1 | Ayesha | Farooq | 1 | P-02 | Car | 350.0 |
 | 2 | Arslan | Tariq | 2 | P-03 | SUV | 350.0 |
 | 3 | Hassan | Ali | 3 | P-04 | Motorcycle | 175.0 |
 | 4 | Arslan | Mehmood | 4 | P-05 | Van | 525.0 |
-| 5 | Ayesha | Farooq | 5 | P-06 | EV | 350.0 |
+| 5 | Zain | Ahmed | 5 | P-06 | EV | 350.0 |
 | 6 | Hamza | Siddique | 6 | P-07 | Car | 350.0 |
 
 ### Join Query #8 — Type: `FULL OUTER JOIN`
@@ -1072,11 +1071,11 @@ SELECT c.Customer_ID, c.First_Name, c.Last_Name, c.Email FROM Customer c WHERE E
 
 | Customer_ID | First_Name | Last_Name | Email |
 | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | talha.sarfraz@gmail.com |
+| 1 | Ayesha | Farooq | ayesha.farooq@gmail.com |
 | 2 | Arslan | Tariq | arslan.tariq@yahoo.com |
 | 3 | Hassan | Ali | hassan.ali@outlook.com |
 | 4 | Arslan | Mehmood | arslan.m@gmail.com |
-| 5 | Ayesha | Farooq | ayesha.f@gmail.com |
+| 5 | Zain | Ahmed | zain.ahmed@gmail.com |
 | 6 | Hamza | Siddique | hamza.sid@hotmail.com |
 
 ### Subquery #14 — Category: `Subquery with EXISTS`
@@ -1180,11 +1179,11 @@ SELECT c.Customer_ID, c.First_Name, c.Last_Name, c.Membership_Type, (SELECT COUN
 
 | Customer_ID | First_Name | Last_Name | Membership_Type | Total_Tickets_Purchased |
 | --- | --- | --- | --- | --- |
-| 1 | Talha | Sarfraz | VIP | 1 |
+| 1 | Ayesha | Farooq | VIP | 1 |
 | 2 | Arslan | Tariq | Platinum | 1 |
 | 3 | Hassan | Ali | Gold | 1 |
 | 4 | Arslan | Mehmood | Regular | 1 |
-| 5 | Ayesha | Farooq | VIP | 1 |
+| 5 | Zain | Ahmed | Gold | 1 |
 | 6 | Hamza | Siddique | Silver | 1 |
 
 ### Subquery #20 — Category: `Subquery in FROM clause (Derived Table)`

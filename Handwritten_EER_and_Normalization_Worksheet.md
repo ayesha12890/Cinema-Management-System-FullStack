@@ -1,7 +1,7 @@
 # BSCS Database Systems — Term Project Handwritten Deliverables Guide
 **Course:** CS-311: Database Systems  
 **Instructor:** Miss Duaa-e-Nadeem  
-**Student Name:** Talha Sarfraz (SAP ID: 70150006) & Group  
+**Student Name:** Ayesha Farooq (SAP ID: 70150025) & Group  
 **Degree Program:** Bachelor of Science in Computer Science (BSCS 5th-A)  
 **Institution:** Department of Computer Science, The University of Lahore  
 **Project:** Enhanced Cinema Management System (Enterprise Full-Stack)

@@ -474,11 +474,11 @@ GO
 -- Data Ingestion: Customer (35 tuples)
 -- -------------------------------------------------------------------------
 INSERT INTO Customer (Customer_ID, First_Name, Last_Name, Email, Gender, Date_Of_Birth, Membership_Type, Registration_Date, Loyalty_Points, City, Postal_Code, Is_Active) VALUES
-(1, 'Talha', 'Sarfraz', 'talha.sarfraz@gmail.com', 'M', '2001-05-14', 'VIP', '2023-01-10', 450, 'Lahore', '54000', 1),
+(1, 'Ayesha', 'Farooq', 'ayesha.farooq@gmail.com', 'F', '2002-12-05', 'VIP', '2023-01-10', 450, 'Lahore', '54000', 1),
 (2, 'Arslan', 'Tariq', 'arslan.tariq@yahoo.com', 'M', '1999-11-23', 'Platinum', '2023-01-15', 380, 'Lahore', '54600', 1),
 (3, 'Hassan', 'Ali', 'hassan.ali@outlook.com', 'M', '2000-03-19', 'Gold', '2023-02-01', 290, 'Karachi', '74200', 1),
 (4, 'Arslan', 'Mehmood', 'arslan.m@gmail.com', 'M', '1998-08-30', 'Regular', '2023-02-12', 120, 'Islamabad', '44000', 1),
-(5, 'Ayesha', 'Farooq', 'ayesha.f@gmail.com', 'F', '2002-12-05', 'VIP', '2023-02-20', 510, 'Lahore', '54770', 1),
+(5, 'Zain', 'Ahmed', 'zain.ahmed@gmail.com', 'M', '2001-08-20', 'Gold', '2023-02-20', 510, 'Lahore', '54770', 1),
 (6, 'Hamza', 'Siddique', 'hamza.sid@hotmail.com', 'M', '1997-04-16', 'Silver', '2023-03-01', 210, 'Faisalabad', '38000', 1),
 (7, 'Sara', 'Naveed', 'sara.naveed@gmail.com', 'F', '2001-09-28', 'Gold', '2023-03-10', 330, 'Rawalpindi', '46000', 1),
 (8, 'Bilal', 'Khan', 'bilal.khan@live.com', 'M', '1996-01-12', 'Regular', '2023-03-15', 80, 'Multan', '60000', 1),

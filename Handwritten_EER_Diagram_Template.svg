@@ -35,8 +35,8 @@
 
     <!-- Right Box Submission Meta -->
     <text x="735" y="30" font-size="13" font-weight="bold" fill="#1E3A8A">STUDENT CREDENTIALS:</text>
-    <text x="735" y="58" font-size="13" fill="#0F172A">Name: <tspan font-weight="bold">Talha Sarfraz</tspan> (Group Lead)</text>
-    <text x="735" y="84" font-size="13" fill="#0F172A">SAP ID: <tspan font-weight="bold">70150006</tspan> | BSCS Section: 5th-A</text>
+    <text x="735" y="58" font-size="13" fill="#0F172A">Name: <tspan font-weight="bold">Ayesha Farooq</tspan> (Group Lead)</text>
+    <text x="735" y="84" font-size="13" fill="#0F172A">SAP ID: <tspan font-weight="bold">70150025</tspan> | BSCS Section: 5th-A</text>
     <text x="735" y="112" font-size="13" fill="#0F172A">Date: <tspan font-weight="bold">December 2024</tspan> | Status: Verified Final</text>
   </g>
 

@@ -226,7 +226,7 @@ def get_db_connection():
 def home():
     return jsonify({
         "project": "Cinema Management System API",
-        "author": "Talha Sarfraz (SAP ID: 70150006) & Group",
+        "author": "Ayesha Farooq (SAP ID: 70150025) & Group",
         "course": "BSCS CS-311 Database Systems",
         "institution": "The University of Lahore",
         "status": "Online",
